@@ -3,4 +3,5 @@
     <string name="toss_open_button">Toss QR 체크인 열기</string>
     <string name="app_exit">앱 나가기</string>
     <string name="toss_description">만약 Toss가 열리지 않았다면, 위 버튼을 눌러 실행하세요.</string>
+    <string name="please_toss_install">Toss 어플리케이션이 설치되어 있는지 확인해주세요.</string>
 </resources>

@@ -15,7 +15,7 @@ class SchemeHelper {
             val intent = Intent(Intent.ACTION_VIEW, Uri.parse(url))
             activity.startActivity(intent)
         } catch (e: ActivityNotFoundException) {
-            val toast = Toast.makeText(activity.applicationContext, "Toss 앱이 설치되어 있는지 확인해주세요.", Toast.LENGTH_LONG)
+            val toast = Toast.makeText(activity.applicationContext, R.string.please_toss_install, Toast.LENGTH_LONG)
             toast.show()
         }
     }
